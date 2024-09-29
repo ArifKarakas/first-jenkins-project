@@ -18,6 +18,7 @@ test.describe('@smoke Test Group1', () => {   //tagname verdik. Buradaki tum tes
 
   test('Getting the current URL of the page', async ({ page }) => {  //burada da tagname verilebilir. Sadece bunu calistirir. json file uzerinden.
     console.log(page.url());
+    
   });
 
   
